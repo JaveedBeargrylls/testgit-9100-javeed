@@ -1,6 +1,6 @@
 #! /bin/bash
-a=5
-b=6
+read -p a
+read -p b
 division=`echo $a $b | awk '{print $1/$2}'`
 multiplication=$((a*b))
 echo $multiplication
